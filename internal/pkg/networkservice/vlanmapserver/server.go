@@ -23,11 +23,11 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/api/pkg/api/networkservice"
-	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vlan"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice"
+	"github.com/NikitaSkrynnik/api/pkg/api/networkservice/mechanisms/vlan"
+	"github.com/NikitaSkrynnik/sdk/pkg/networkservice/core/next"
 
-	"github.com/networkservicemesh/cmd-nse-remote-vlan/internal/pkg/config"
+	"github.com/NikitaSkrynnik/cmd-nse-remote-vlan/internal/pkg/config"
 )
 
 const (

@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/cmd-nse-remote-vlan/internal/pkg/config"
+	"github.com/NikitaSkrynnik/cmd-nse-remote-vlan/internal/pkg/config"
 )
 
 func TestServiceConfig_UnmarshalBinary(t *testing.T) {
